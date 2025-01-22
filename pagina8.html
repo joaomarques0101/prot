@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Interface</title>
+    <link rel="stylesheet" href="styles13.css">
+</head>
+<body>
+    <!-- Cabeçalho com texto explicativo -->
+    <header>
+        <h1>Bem-vindo à nossa social</h1>
+        <p>Explore, interaja e mantenha-se atualizado com as últimas postagens e tendências nesta plataforma de mídia social.</p>
+    </header>
+
+    <div id="app" class="layout">
+        <!-- Left Sidebar -->
+        <aside class="sidebar left">
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">LinkedIn</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Facebook</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        <!-- Main Content Area -->
+        <main class="feed">
+            <!-- Post 1 -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="sig3.jpg" alt="User Profile" class="profile-pic">
+                    <div class="user-details">
+                        <h4>Paulo Sergio Buck</h4>
+                        <p>@Paulo_Buck • 1h ago</p>
+                    </div>
+                </div>
+                <p class="post-text">Essa semana, dedicamos nossos esforços ao lançamento do nosso novo site! Nosso objetivo é proporcionar um ambiente mais confortável, prático e acolhedor para todos os nossos clientes. Com um design moderno e intuitivo, buscamos melhorar sua experiência, tornando cada interação mais fácil e agradável. Estamos animados para receber sua visita em nosso novo espaço digital! 🚀</p>
+                <img src="4.jpg" alt="Post Content" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <button class="comment-btn">Comment</button>
+                </div>
+            </div>
+
+            <!-- Post 3 with Video -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="sig4.png" alt="User Profile" class="profile-pic">
+                    <div class="user-details">
+                        <h4>Giovana Buck</h4>
+                        <p>@Giovana_BuckDiretoradevendas • 1h ago</p>
+                    </div>
+                </div>
+                <p class="post-text">Hoje celebramos um marco importante para a Sigmaplasth! Fechamos um acordo estratégico com a WEG, uma das maiores empresas do país. Essa parceria reforça nosso compromisso com a inovação e a excelência, unindo forças para desenvolver soluções ainda mais eficientes e tecnológicas. Estamos empolgados com as possibilidades que esse acordo trará para o futuro! </p>
+                <img src="14.jpg" alt="Post Content" class="post-image">
+                <div class="post-actions">
+                    <button class="like-btn"><i class="fas fa-heart"></i> Like</button>
+                    <button class="comment-btn"><i class="fas fa-comment"></i> Comment</button>
+                </div>
+
+            <!-- Post 4 with Multiple Images -->
+            <div class="post">
+                <div class="user-info">
+                    <img src="sig5.jpg" alt="User Profile" class="profile-pic">
+                    <div class="user-details">
+                        <h4>Emily Franco</h4>
+                        <p>@emilywhite • 4h ago</p>
+                    </div>
+                </div>
+                <p class="post-text">Evoluindo a cada dia mais!</p>
+                <div class="post-images">
+                    <img src="10.jpg" alt="Trip Photo 1" class="post-image">
+                    <img src="11.jpg" alt="Trip Photo 2" class="post-image">
+                    <img src="14.jpg" alt="Trip Photo 3" class="post-image">
+                </div>
+                <div class="post-actions">
+                    <button class="like-btn">Like</button>
+                    <button class="comment-btn">Comment</button>
+                </div>
+            </div>
+        </main>
+        <!-- Post 2 with Video -->
+<div class="post">
+    <div class="user-info">
+        <img src="13.jpg" alt="User Profile" class="profile-pic">
+        <div class="user-details">
+            <h4>Carlos Santos</h4>
+            <p>@Carlos_santos • 1h ago</p>
+        </div>
+    </div>
+    <p class="post-text">Nossa equipe tem como prioridade a excelência! Estamos sempre focados em oferecer qualidade em tudo o que fazemos e em desenvolver soluções inteligentes que atendam às necessidades de nossos clientes. Acreditamos que unir dedicação, inovação e compromisso é o caminho para superar expectativas e construir resultados duradouros. </p>
+    <!-- Adding Video -->
+    <div class="post-video">
+        <video controls>
+            <source src="sigma7.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="post-actions">
+        <button class="like-btn"><i class="fas fa-heart"></i> Like</button>
+        <button class="comment-btn"><i class="fas fa-comment"></i> Comment</button>
+    </div>
+</div>
+
+        
+
+        <!-- Right Sidebar -->
+        <aside class="sidebar right">
+            <section class="trending">
+                <h4>Trending</h4>
+                <ul>
+                    <li><a href="#">#Sigmaplasth</a></li>
+                    <li><a href="#">#Futuro</a></li>
+                    <li><a href="#">#Qulidade</a></li>
+                </ul>
+            </section>
+            <section class="who-to-follow">
+                <h4>Nos siga</h4>
+                <ul>
+                    <li>
+                        <img src="sig3.jpg" alt="Profile" class="profile-pic-small">
+                        <span>Paulo Sergio Buck</span>
+                        <button class="follow-btn">Follow</button>
+                    </li>
+                    <li>
+                        <img src="11.jpg" alt="Profile" class="profile-pic-small">
+                        <span>Sigmaplasth</span>
+                        <button class="follow-btn">Follow</button>
+                    </li>
+                    <li>
+                        <img src="11.jpg" alt="Profile" class="profile-pic-small">
+                        <span>Carlos Santos</span>
+                        <button class="follow-btn">Follow</button>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
